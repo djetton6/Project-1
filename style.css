@@ -49,11 +49,24 @@ table {
 
 nav ul {
 	list-style-type: none;
-	padding: 15;
-	margin: 15;
-	overflow:hidden;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
 }
+
 nav ul li {
-	float:right;
-	margin: 10 30px;
+	float: left;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	display: block;
+	background-color: blue;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+	padding: 10px 0px 8px 0px;
+	border-radius: 4px;
 }
